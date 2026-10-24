@@ -11,4 +11,3 @@ def _require(name: str) -> str:
     return value
 
 DATABASE_URL = _require("DATABASE_URL")
-
